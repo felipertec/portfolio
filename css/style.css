@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 100%;
+    background-color: #e6e4e4;
+}
+
+.logo{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.sidebar{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #e6e4e4;
+    color: #000;
+}
+
+
+.links{
+    width: 50%;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: monospace;
+    text-align: center;
+}
+
+.item{
+    margin-bottom: 1.25rem;
+    border: 1px solid gray;
+    border-radius: 20px 0 17px 0;
+    background: gray;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    background-color: rgb(151, 17, 17);
+    /* margin-left: 20rem; */
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_actions{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.item_actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    border-radius: 50%;
+    margin: .5rem 1rem 0 0;
+}
