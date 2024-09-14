@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-txt-color: rgb(4, 135, 139);
+    --main-btn-bg-color: rgb(4, 135, 139);
+    --main-btn-txt-color: #FFF;
+}
+
+body{
+    background: rgba(214, 214, 214, 0.416);
+}
+
 header{
     position: fixed;
     display: flex;
@@ -52,11 +62,10 @@ header{
 .content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 100%;
     color: #000;
-    background-color: rgb(151, 17, 17);
-    /* margin-left: 20rem; */
+    margin-left: 20rem; 
 }
 
 .actions{
@@ -82,4 +91,78 @@ header{
     background: #000;
     border-radius: 50%;
     margin: .5rem 1rem 0 0;
+    cursor: pointer;
 }
+
+.menu_actions :active{
+    transform: scale(1.25, 1.25);
+}
+
+
+.content-home{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.content-text{
+    width: 65%;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.content-text > p{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.content-text > h2{
+    margin-bottom: 10px;
+}
+
+.content-text > h1{
+    margin-bottom: 10px;
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--main-txt-color)
+}
+
+.profision{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--main-txt-color)
+}
+
+
+.content-image{
+    background-color: red;
+    width: 40%;
+    height: 300px;
+    margin-right: 2rem;
+}
+
+.bord-image{
+    width: 100%;
+    height: 100px;
+}
+
+.btn-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-btn-bg-color);
+    color: var(--main-btn-txt-color);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
