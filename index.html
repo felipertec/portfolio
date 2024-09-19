@@ -13,7 +13,7 @@
         </div>
         <nav class="sidebar">
             <ul class="links">
-                <li class="item">Home</li>
+                <li class="item" onclick="home()">Home</li>
                 <li class="item">Sobre</li>
                 <li class="item">Portfólio</li>
                 <li class="item">Contato</li>
@@ -21,36 +21,54 @@
         </nav>
     </header>
 
-    <main class="content">
-        <div class="actions">
-            <ul class="menu_actions">
-                <li class="item_actions">I</li>
-                <li class="item_actions">F</li>
-            </ul>
-        </div>
+    <div class="actions">
+        <ul class="menu_actions">
+            <li class="item_actions">I</li>
+            <li class="item_actions">F</li>
+        </ul>
+    </div>
 
-        <section class="content-home">
-            <div class="content-text">
-                <h2>Olá, meu nome é <span class="name">Felipe Silva</span></h2>
-                <h1>Eu sou <span class="profision">Desenvolvedor Full Stack</span></h1>
+    <main id="content" class="content">
+        <section class="content-about">
+            <h1>Sobre mim</h1>
+            <div class="content-text-about">
+                <h2 class="content-text-about-name">Meu nome é Felipe Silva e sou <span class="profision">Desenvolvedor Full Stack</span> </h2>
                 <p>
-                   Eu sou desenvolvedor de softwares a mais de 3 anos. 
-                   Tenho experiência em front-end com criação de layouts de paginas intuitivas e responsivas e tambem atuo no back-end integrando a 
-                   parte do usuario e a lógica de negócio.   
+                    Olá! Sou um desenvolvedor full stack com quase 4 anos de experiência, sendo quase 2 deles como analista de sistemas no AME em Caraguatatuba. No AME, trabalho com manutenção e desenvolvimento de sistemas web utilizando HTML, CSS, JavaScript e ASP Classic, além de bibliotecas como jQuery, DataTables, Bootstrap e FullCalendar. 
+                    Esses sistemas ajudam a melhorar o dia a dia dos colaboradores do ambulatório.
+                    Fora do AME, também desenvolvo utilizando Node.js, React.js, MySQL e TypeScript, sempre buscando novas soluções e desafios que me ajudam a crescer como desenvolvedor. Amo aprender novas tecnologias e criar sistemas que realmente fazem a diferença!   
                 </p>
-
-                <div class="btn-about">
-                    <p>Mais sobre mim</p>
-                </div>
-            </div>
-
-            <div class="content-image">
-                <div class="bord-image">
-                    <img class="image-profile" src="" alt="">
-                </div>
             </div>
         </section>
 
+        <section class="content-about-profile">
+            <div class="content-about-profile-data">
+                <div class="content-about-profile-list">
+                    <div>
+                        <ul class="content-about-profile-list-data">
+                            <li class="content-about-profile-list-item">Aniversario: 09 Abril 1993</li>
+                            <li class="content-about-profile-list-item">Email: felipe.rtec@gmail.com</li>
+                            <li class="content-about-profile-list-item">Cidade: Caraguatatuba</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="content-about-profile-list-data">
+                            <li class="content-about-profile-list-item">Idade: 09 Abril 1993</li>
+                            <li class="content-about-profile-list-item">Telefone: (12) 98299-1429</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-about-profile-progress">
+                    <label for="">HTML</label>
+                    <progress id="file" value="32" max="100"> 32% </progress>
+                    <label for="">CSS</label>
+                    <progress id="file" value="32" max="100"> 32% </progress>
+                    <label for="">Javascript</label>
+                    <progress id="file" value="32" max="100"> 32% </progress>
+                </div>
+            </div>
+        </section>
+       
         
     </main>
 
