@@ -164,6 +164,7 @@ header{
     border-radius: 20px 20px 20px 20px;
     margin-top: 3rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .content-about{
@@ -261,7 +262,21 @@ progress::-moz-progress-bar {
     animation: loading 2s forwards; 
 }
 
-/* Animação */
+.progress-container {
+    position: relative;
+    margin-bottom: 1rem; 
+}
+
+.progress-label {
+    position: absolute;
+    top: 0px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    font-weight: bold;
+    color: #76c7c0; 
+}
+
+/* animation */
 @keyframes loading {
     0% {
         transform: scaleX(0);
