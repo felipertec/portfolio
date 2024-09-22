@@ -26,7 +26,7 @@ function home(){
 
             <div class="content-image">
                 <div class="bord-image">
-                    <img class="image-profile" src="../img/profile.jpeg" alt="">
+                    <img class="image-profile" src="img/profile.jpeg" alt="">
                 </div>
             </div>
         </section>
